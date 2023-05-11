@@ -1,0 +1,14 @@
+---
+French:
+  default: true
+  mini: "fra"
+  image: ""
+English:
+  default: false
+  mini: "eng"
+  image: ""
+Deutsch:
+  default: false
+  mini: "deu"
+  image: ""
+...

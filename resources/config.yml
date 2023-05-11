@@ -1,0 +1,6 @@
+---
+type-action-after-logout: kill #kill or clone(create a clone of player when he logout)
+time-of-combat: 5 #seconds
+list-commands-blocked: ## list of commands blocked i'm create permission for bypass who startup with "combatlogger.bypass.{command}"
+  - "msg" # permission: combatlogger.bypass.msg
+...
