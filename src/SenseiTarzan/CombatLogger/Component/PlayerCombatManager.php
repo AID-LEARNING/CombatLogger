@@ -5,12 +5,11 @@ namespace SenseiTarzan\CombatLogger\Component;
 use pocketmine\permission\Permission;
 use pocketmine\permission\PermissionManager;
 use pocketmine\player\Player;
-use pocketmine\Server;
 use pocketmine\utils\SingletonTrait;
 use SenseiTarzan\CombatLogger\Class\PlayerCombat;
-use SenseiTarzan\CombatLogger\libs\SenseiTarzan\LanguageSystem\Component\LanguageManager;
 use SenseiTarzan\CombatLogger\Main;
 use SenseiTarzan\CombatLogger\Utils\CustomKnownTranslationFactory;
+use SenseiTarzan\LanguageSystem\Component\LanguageManager;
 
 class PlayerCombatManager
 {
