@@ -2,13 +2,12 @@
 
 namespace SenseiTarzan\CombatLogger\Class;
 
-use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\player\Player;
 use SenseiTarzan\CombatLogger\Component\PlayerCombatManager;
 use SenseiTarzan\CombatLogger\Entity\CloneAttacker;
 use SenseiTarzan\CombatLogger\Event\PlayerCombatEndEvent;
 use SenseiTarzan\CombatLogger\Event\PlayerQuitFightEvent;
-use SenseiTarzan\CombatLogger\libs\SenseiTarzan\LanguageSystem\Component\LanguageManager;
+use SenseiTarzan\LanguageSystem\Component\LanguageManager;
 use SenseiTarzan\CombatLogger\Utils\CustomKnownTranslationFactory;
 
 class PlayerCombat

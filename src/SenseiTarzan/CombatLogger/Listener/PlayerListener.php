@@ -10,9 +10,9 @@ use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\server\CommandEvent;
 use pocketmine\player\Player;
 use SenseiTarzan\CombatLogger\Component\PlayerCombatManager;
-use SenseiTarzan\CombatLogger\libs\SenseiTarzan\LanguageSystem\Component\LanguageManager;
-use SenseiTarzan\ExtraEvent\Class\EventAttribute;
+use SenseiTarzan\LanguageSystem\Component\LanguageManager;
 use SenseiTarzan\CombatLogger\Utils\CustomKnownTranslationFactory;
+use SenseiTarzan\ExtraEvent\Class\EventAttribute;
 
 class PlayerListener
 {

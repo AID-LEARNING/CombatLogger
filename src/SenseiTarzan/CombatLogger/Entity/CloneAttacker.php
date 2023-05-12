@@ -7,7 +7,7 @@ use pocketmine\lang\Translatable;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\network\mcpe\protocol\types\entity\EntityMetadataProperties;
 use pocketmine\network\mcpe\protocol\types\entity\StringMetadataProperty;
-use SenseiTarzan\CombatLogger\libs\SenseiTarzan\LanguageSystem\Component\LanguageManager;
+use SenseiTarzan\LanguageSystem\Component\LanguageManager;
 use SenseiTarzan\CombatLogger\Utils\CustomKnownTranslationFactory;
 
 class CloneAttacker extends Human
